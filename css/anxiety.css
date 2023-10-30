@@ -1,0 +1,1484 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+    font-family: 'Cormorant Infant', serif;
+}
+
+:root {
+    --color: #2bb773;
+    --color2: #8dc73f;
+    --color3: white;
+    --color4: black;
+    --color5:  #1E8065;
+    --color6: #3a3895;
+
+}
+
+
+p{
+    font-weight: 300;
+}
+
+h2{
+    font-weight: 700;
+}
+
+/****navbar-1 start****/
+
+
+
+.hero {
+    width: 100%;
+    height: 70vh;
+    background: url(..//img/anxiety-img2.jfif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -53px;
+    margin-right: 50px;
+    
+    object-fit: cover;
+}
+
+.hero  .text h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 11px;
+    text-align: center;
+    z-index: 1 !important;
+}
+
+.hero  .text .btn {
+    padding: 10px 10px;
+    background-color: var(--color5);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 9px;
+    border: 2px solid var(--color5);
+    transition: 0.3s;
+}
+.text h1{
+    z-index: 1 !important;
+}
+
+ 
+
+/* <!-- Anxiety Start --> */
+
+.anxiety-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+
+}
+
+.anxiety-concept1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.anxiety-item {
+    width: 700px;
+    height: 490px;
+}
+
+.anxiety-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: cover;
+    background-size: center;
+}
+
+.anxiety-content {
+    width: 85%;
+    height: auto;
+    margin-top: 5%;
+}
+
+
+
+.anxiety-content h3 {
+    color: var(--color5);
+    font-weight: 700 !important;
+    font-size: 34px;
+ }
+
+.anxiety-concept2 {
+    width: 40%;
+    height: 100%;
+}
+
+.enquiery {
+    width: 100%;
+    height: 490px;
+    background: linear-gradient(var(--color6), var(--color));
+    padding: 20px 20px;
+
+}
+
+.input-type {
+    width: 100%;
+    height: 40px;
+}
+
+.input-type .input-content {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    margin-top: 5%;
+}
+
+.input-type .text-area {
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    margin-top: 5%;
+}
+
+
+.enquiery h3 {
+    color: var(--color3);
+}
+
+.similar-problems {
+    width: 100%;
+    height: 245px;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5% 5%;
+    background-color: var(--color6);
+    align-items: center;
+    text-align: center;
+}
+
+.similar-problems p {
+    color: var(--color3);
+    font-size: 20px;
+}
+
+.similar-problems .phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.similar-problems .phone a {
+    color: var(--color3);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.mem {
+    width: 150px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+
+    padding: 10px 10px;
+    display: inline-block;
+    transition: 0.5s;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid var(--color5);
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--color5);
+    margin-top: 5%;
+
+}
+
+.mem span {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color6);
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.mem:hover {
+    color: var(--color4);
+}
+
+
+
+.mem1 {
+    margin-top: 5%;
+    background-color: var(--color5);
+    display: inline-block;
+    transition: 0.5s;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid var(--color5);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mem1 a {
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+
+    padding: 10px 10px;
+    display: inline-block;
+    transition: 0.5s;
+    color: var(--color3);
+    font-weight: bold;
+    border: 2px solid var(--color5);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.mem1 a span {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color6);
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.mem1 a:hover {
+    color: var(--color4);
+}
+
+.accordion{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+
+/* Media Query Start//////..... */
+
+
+@media screen and (max-width:280px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .anxiety-item {
+        width: 250px;
+        height: 250px;
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+    }
+
+    .anxiety-content {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .enquiery {
+        width: 100%;
+        height: 460px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 100%;
+        height: 255px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:281px) and (max-width:320px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+
+
+
+
+    .anxiety-item {
+        width: 300px;
+        height: 300px;
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+    }
+
+    .anxiety-content {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .enquiery {
+        width: 100%;
+        height: 460px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 100%;
+        height: 255px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+
+
+    .anxiety-item {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+
+    }
+
+    .anxiety-content {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .enquiery {
+        width: 100%;
+        height: 470px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 100%;
+        height: 255px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width:376px) and (max-width:425px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+
+
+    .anxiety-item {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+
+    }
+
+    .anxiety-content {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .enquiery {
+        width: 100%;
+        height: 490px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 100%;
+        height: 255px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width:426px) and (max-width:540px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+
+
+    .anxiety-item {
+        width: 380px;
+        height: 380px;
+
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+
+    }
+
+    .anxiety-content {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .enquiery {
+        width: 100%;
+        height: 520px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 100%;
+        height: 255px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:541px) and (max-width:650px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+
+
+    .anxiety-item {
+        width: 450px;
+        height: 450px;
+
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+
+    }
+
+    .anxiety-content {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .enquiery {
+        width: 100%;
+        height: 530px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 100%;
+        height: 255px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:651px) and (max-width:750px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+
+
+    .anxiety-item {
+        width: 500px;
+        height: 400px;
+
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+
+    }
+
+    .anxiety-content {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .enquiery {
+        width: 100%;
+        height: 540px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 100%;
+        height: 255px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:850px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+
+
+    .anxiety-item {
+        width: 700px;
+        height: 400px;
+
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+
+    }
+
+    .anxiety-content {
+        width: 700px;
+        height: auto;
+        margin-top: 2%;
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    .enquiery {
+        width: 100%;
+        height: 530px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+
+
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 100%;
+        height: 255px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:851px) and (max-width:950px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+
+
+    .anxiety-item {
+        width: 700px;
+        height: 400px;
+
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+
+    }
+
+    .anxiety-content {
+        width: 700px;
+        height: auto;
+        margin-top: 2%;
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    .enquiery {
+        width: 100%;
+        height: 650px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+
+
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 100%;
+        height: 255px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:951px) and (max-width:999px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-between;
+
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    .anxiety-item {
+        width: 500px;
+        height: 500px;
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+    }
+
+    .anxiety-content {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+
+
+    .anxiety-content h3 {
+        color: var(--black);
+        -webkit-text-stroke: 1px var(--color);
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+        transform: translate(5%, 0%);
+    }
+
+    .enquiery {
+        width: 400px;
+        height: 500px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 400px;
+        height: 245px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:850px) {
+
+    .enquiery {
+        width: 100%;
+        height: 620px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    .anxiety-section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-between;
+
+    }
+
+    .anxiety-concept1 {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    .anxiety-item {
+        width: 500px;
+        height: 500px;
+    }
+
+    .anxiety-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image: cover;
+        background-size: center;
+    }
+
+    .anxiety-content {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+        text-align: justify;
+    }
+
+
+
+    .anxiety-content h3 {
+        color: var(--color5);
+        font-weight: 700 !important;
+        
+    }
+
+    .anxiety-concept2 {
+        width: 100%;
+        height: 100%;
+        transform: translate(5%, 0%);
+    }
+
+    .enquiery {
+        width: 400px;
+        height: 500px;
+        background: linear-gradient(var(--color6), var(--color));
+        padding: 20px 20px;
+    }
+
+    .input-type {
+        width: 100%;
+        height: 40px;
+    }
+
+    .input-type .input-content {
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+    .input-type .text-area {
+        width: 100%;
+        height: 100px;
+        padding: 10px 10px;
+        margin-top: 5%;
+    }
+
+
+    .enquiery h3 {
+        color: var(--color3);
+    }
+
+    .similar-problems {
+        width: 400px;
+        height: 245px;
+        margin-top: 10%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 5% 5%;
+        background-color: var(--color6);
+        align-items: center;
+        text-align: center;
+    }
+
+    .similar-problems p {
+        color: var(--color3);
+        font-size: 20px;
+    }
+
+    .similar-problems .phone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .similar-problems .phone a {
+        color: var(--color3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+}

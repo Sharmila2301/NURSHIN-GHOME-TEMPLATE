@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+    font-family: 'Cormorant Infant', serif;
+}
+
+:root {
+    --color: #2bb773;
+    --color2: #8dc73f;
+    --color3: white;
+    --color4: black;
+    --color5:  #1E8065;
+    --color6: #3a3895;
+
+}
+
+
+p{
+    font-weight: 300;
+}
+
+h2{
+    font-weight: 700;
+}
+
+/****navbar-1 start****/
+
+
+
+.hero {
+    width: 100%;
+    height: 70vh;
+    background: url(../img/dimentia\ img2.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -53px;
+    margin-right: 50px;
+    z-index: 0;
+}
+
+.hero .text h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+.hero .text .btn {
+    padding: 10px 10px;
+    background-color: var(--color5);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 9px;
+    border: 2px solid var(--color5);
+    transition: 0.3s;
+}
+
+
+

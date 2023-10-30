@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+    font-family: 'Cormorant Infant', serif;
+}
+
+:root {
+    --color: #2bb773;
+    --color2: #8dc73f;
+    --color3: white;
+    --color4: black;
+    --color5:  #1E8065;
+    --color6: #3a3895;
+
+}
+
+
+p{
+    font-weight: 300;
+}
+
+h2{
+    font-weight: 700;
+}
+
+
+.hero{
+    width: 100%;
+    height: 60vh;
+    background: url(../img/banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -53px;
+    margin-right: 50px;
+    z-index: 0;
+
+}
+.hero-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color4);
+    opacity: 0.4;
+}
+.hero .text{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.hero .text h4{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hero .text h1{
+    color: #fff;
+    font-size: 60px;
+   font-weight: bold;
+    line-height: 1;
+    margin-bottom: 11px;
+    text-align: center;
+
+}
+
+.hero .text p{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.hero .text .btn{
+    padding: 10px 10px;
+    width: 150px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 9px;
+    border: 2px solid var(--color5);
+    transition: 0.3s;
+    background-image: linear-gradient(
+        to right,
+        #1E8065,
+        #2bb773
+    )
+}
